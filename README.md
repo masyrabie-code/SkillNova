@@ -1,2 +1,2 @@
 # SkillNova
-موقع لتسويق الكورسات الرقميه مدفوع ومجانى 
+Bilingual e-learning platform (Arabic/English)
