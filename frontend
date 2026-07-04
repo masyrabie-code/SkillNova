@@ -1,1 +1,13 @@
 
+frontend/
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+└── components/
+    └── layout/
+        ├── Navbar.tsx
+        └── Footer.tsx
