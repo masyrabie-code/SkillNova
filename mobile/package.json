@@ -1,0 +1,38 @@
+{
+  "name": "skillnova-mobile",
+  "version": "1.0.0",
+  "description": "SkillNova Mobile App with React Native",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios",
+    "build:web": "expo export:web"
+  },
+  "dependencies": {
+    "expo": "^49.0.0",
+    "expo-splash-screen": "^0.20.5",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-gesture-handler": "^2.13.4",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/stack": "^6.3.17",
+    "axios": "^1.5.0",
+    "zustand": "^4.4.1",
+    "react-i18next": "^13.3.0",
+    "i18next": "^23.5.0",
+    "@react-native-community/netinfo": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "typescript": "^5.2.2"
+  },
+  "expo": {
+    "plugins": ["expo-router/plugin"]
+  }
+}
